@@ -164,11 +164,11 @@
           </div>
         </div>
       </article>
-      <button class="button-save">
+      <button class="button-save" type="button" onclick="window['save-modal'].showModal()" aria-controls="save">
         <svg class="floppy" width="21" height="21" fill="none">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
-        <span class="button__text" type="button" onclick="window['save-modal'].showModal()" aria-controls="save">Сохранить на память</span>
+        <span class="button__text">Сохранить на память</span>
       </button>
     <dialog class="modal" id="save-modal">
       <div class="modal__content">
