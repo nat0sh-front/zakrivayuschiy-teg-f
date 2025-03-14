@@ -9,16 +9,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-
-@keyframes triangle-move {
-    from {
-      transform: translateX(0px);
-    }
-    to {
-      transform: translateX(4px);
-    }
-  }
-  
   @keyframes heart-scale {
     from {
       scale: 1;
