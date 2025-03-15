@@ -334,19 +334,6 @@
   text-transform: uppercase;
 }
 
-.modal__button::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: var(--accent-color);
-  translate: -100%;
-  transition: translate 0.5s ease-in-out;
-}
-
-.modal__button:hover::before {
-  translate: 0%;
-}
-
 @media (width <= 375px) {
   .header {
     width: 100%;
